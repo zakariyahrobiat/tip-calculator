@@ -109,10 +109,12 @@ input{
     padding-left: 0px;
     font-size: 18px;
     font-weight: 900;
+    margin-top: 20px;
 }
 #total-el{
     color: white;
     padding-right: 84px;
+    padding-top: 30px;
    
 }
 
