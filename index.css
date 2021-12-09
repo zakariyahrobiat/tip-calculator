@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    font-family:monospace;
+    margin:12% 30%;
+    
+
+}
+.body{
+     padding-bottom: 30px;
+    text-align: center;
+    color:rgb(2, 88, 74) ;
+    letter-spacing: 3px;
+}
+p{
+    color:rgb(2, 88, 74) ;
+}
+ 
+.section{
+    display: flex;
+    gap: 35px;
+   
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width:100%;
+    
+}
+.section-wrapper{
+    line-height: 1.5;
+    font-weight: 600;
+}
+button{
+    padding: 5px 20px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    background-color:rgb(2, 88, 74);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    
+}
+#custom-btn{
+     padding: 5px 10px; 
+    background-color:rgba(233, 227, 250, 0.548) ;
+    color:rgb(2, 88, 74) ;
+    width: 70px;
+    font-size: 15px;
+    font-family: monospace;
+    
+}
+#custom-btn:hover{
+    background-color:turquoise ;
+    color:rgb(2, 88, 74) ;
+    font-weight: 500;
+}
+input{
+   background-color: rgba(233, 227, 250, 0.548);
+   border: none;
+   width: 230px;
+   height: 25px;
+   border-radius: 2px;
+   margin-bottom: 20px;
+   padding-left: 190px;
+   font-size: 20px;
+        font-weight: 900;
+        color:rgb(2, 88, 74) ;
+}
+#num{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.section-container{
+    background-color:rgb(2, 88, 74) ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 47%;
+}
+#total{
+    color: white;
+     padding-right: 50px; 
+
+}
+#input{
+    width: 65px;
+    background-color: transparent;
+    color: turquoise;
+    border: none;
+    height: 15px;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+#input-el{
+    width: 65px;
+    background-color: transparent;
+    color: turquoise;
+    border: none;
+    height: 15px;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: 900;
+}
+#total-el{
+    color: white;
+    padding-right: 84px;
+   
+}
+
+#reset{
+    margin-top: 90px;
+    background-color:rgba(5, 136, 114, 0.493) ;
+    padding: 5px 75px;
+    color:rgb(2, 88, 74) ;
+}
+#person-el{
+    color: turquoise;
+    opacity: 0.3;
+}
+button:hover{
+    background-color:turquoise ;
+    color:rgb(2, 88, 74) ;
+    font-weight: 700;
+}
+#reset:hover{
+    background-color:turquoise ;
+    color:rgb(2, 88, 74) ;
+    font-weight: 900;
+}
+
+@media(max-width:900px){
+    body{
+        background-color: aqua;
+        font-family:monospace;
+        margin:12% 0%;
+        font-size: 20px;
+        
+    
+    }
+    .body{
+        padding-bottom: 30px;
+       text-align: center;
+       color:rgb(2, 88, 74) ;
+       letter-spacing: 10px;
+       font-weight: 800;
+       font-size: 30px;
+       
+   }
+    
+    .section{
+        display: block;
+        gap: 35px;
+       
+        background-color: white;
+        padding: 33px;
+        border-radius: 15px;
+        width:100%;
+        
+    } 
+    button{
+        padding: 12px 45px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-color:rgb(2, 88, 74);
+        border: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 20px;
+        
+    }
+    input{
+        background-color: rgba(233, 227, 250, 0.548);
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding-left: 250px;
+        
+     }
+     .section-container{
+        background-color:rgb(2, 88, 74) ;
+        padding: 30px 30px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    #total{
+        color: white;
+         padding-right: 45px; 
+         font-size: 20px;
+    
+    }
+    #total-el{
+        color: white;
+        padding-right: 100px;
+        font-size: 20px;
+       
+    }
+    #person-el{
+        color: turquoise;
+        opacity: 0.3;
+        font-size: 15px;
+    }
+    #input{
+        width: 55px;
+        background-color: transparent;
+        color: turquoise;
+        border: none;
+        height: 15px;
+        margin-bottom: 2px;
+        padding-left: 0px;
+
+        
+    
+    }
+    #input-el{
+        width: 55px;
+        background-color: transparent;
+        color: turquoise;
+        border: none;
+        height: 15px;
+        margin-bottom: 2px;
+        padding-left: 0px;
+    }
+    #reset{
+        margin-top: 40px;
+        background-color:rgba(5, 136, 114, 0.493) ;
+        padding: 5px 85px;
+        color:rgb(2, 88, 74) ;
+    }
+    #custom-btn{
+         padding: 15px 25px;
+         background-color:rgba(233, 227, 250, 0.548) ;
+        color:rgb(2, 88, 74) ;
+        width: 135px;
+        font-size: 25px;
+        font-family: monospace;
+    }
+}
