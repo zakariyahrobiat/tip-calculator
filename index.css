@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-@media only screen and (min-width:765px){
+@media only screen and (min-width:600px){
 
 body{
     background-color: aqua;
@@ -45,6 +45,8 @@ button{
     border: none;
     border-radius: 3px;
     color: white;
+    width:100%
+    display: block;
     
 }
 #custom-btn{
@@ -141,7 +143,7 @@ button:hover{
 }
 }
 
-@media(max-width:900px){
+@media(max-width:600px){
     body{
         background-color: aqua;
         font-family:monospace;
