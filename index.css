@@ -123,6 +123,11 @@ input{
     padding-top: 30px;
    
 }
+#total{
+    color: white;
+     padding-right: 40px; 
+
+}
 
 #reset{
     margin-top: 90px;
@@ -147,7 +152,13 @@ button:hover{
 @media (max-width:1115px){
     body{
 
-         margin:12% 21%;
+         margin:12% 23%;
+}
+#total-el{
+    color: white;
+    padding-right: 74px;
+    padding-top: 30px;
+   
 }
 }
 
