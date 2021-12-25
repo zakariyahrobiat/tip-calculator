@@ -157,13 +157,13 @@ button:hover{
 }
 #total-el{
     color: white;
-    padding-right: 50px;
+    padding-right: 45px;
     padding-top: 30px;
    
 }
 #total{
     color: white;
-     padding-right: 30px; 
+     padding-right: 35px; 
 
 }
 }
@@ -235,7 +235,7 @@ button:hover{
     }
     #total-el{
         color: white;
-        padding-right: 100px;
+        padding-right: 95px;
         font-size: 15px;
        
     }
