@@ -166,6 +166,9 @@ button:hover{
      padding-right: 22px; 
 
 }
+#num , #warning{
+    font-size: 15px;
+}
 }
 
 @media(max-width:600px){
